@@ -7,6 +7,7 @@ import Templates from './pages/Templates'
 import Pricing from './pages/Pricing'
 import Contact from './pages/Contact'
 import Dashboard from './pages/Dashboard'
+import WhyIBuiltClawPen from './pages/blog/WhyIBuiltClawPen'
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Routes>
           {/* App dashboard - full screen, no navbar/footer */}
           <Route path="/app/*" element={<Dashboard />} />
+          
+          {/* Blog - no navbar/footer for readability */}
+          <Route path="/blog/why-i-built-claw-pen" element={<WhyIBuiltClawPen />} />
           
           {/* Public pages */}
           <Route
