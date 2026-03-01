@@ -158,7 +158,7 @@ function Home() {
               Download Now
             </Link>
             <a
-              href="https://discord.gg/clawd"
+              href="https://discord.gg/Jkt3u4Ug"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10"
